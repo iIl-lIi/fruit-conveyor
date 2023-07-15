@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb6d0a5643ecd144394d796d7eeb9284, type: 3}
+  m_Name: BasketSlotsList
+  m_EditorClassIdentifier: 
+  <List>k__BackingField:
+  - {fileID: 6599378564214551567, guid: 98f4a1aa6e668ff44b7b0e0d92d60ba0, type: 3}
+  - {fileID: 971489964946036332, guid: c2e05285fd80ffb488d66ce3ee0b995a, type: 3}
+  - {fileID: 8539462911427642667, guid: cb2fc2db5e545cd4191a93419036c086, type: 3}

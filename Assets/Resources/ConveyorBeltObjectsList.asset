@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64da79d22c061224bb8ee210c93eff11, type: 3}
+  m_Name: ConveyorBeltObjectsList
+  m_EditorClassIdentifier: 
+  <List>k__BackingField:
+  - {fileID: 1133233495984631667, guid: 0aa6611b4dab4634ea8f4722ecbe7ee4, type: 3}
+  - {fileID: 1512560878389051937, guid: a6cc7113187de3d438e16d0a34fb45d1, type: 3}
+  - {fileID: 1743759466514854379, guid: d4941403a13d2144bbb1a6c07411c036, type: 3}
