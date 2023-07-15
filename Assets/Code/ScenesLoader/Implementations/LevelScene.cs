@@ -18,6 +18,7 @@ namespace Code.ScenesLoader.Implementations
 
         [Header("Grabbing Task")]
         [SerializeField] private GrabbingTaskGenerator _GrabbingTaskGenerator;
+        [SerializeField] private ParticleSystem _CompleteParfticles;
         private LevelUIWindow _window;
 
         public override async UniTask Initialize()
@@ -46,6 +47,9 @@ namespace Code.ScenesLoader.Implementations
             await _window.Hide();
             UIController.UnloadWindow(_window);
             LevelEvents.CompletedLevel.SafeInvoke();
+
+            await UniTask.Delay(300);
+            _CompleteParfticles.Play();
         }
     }
 }

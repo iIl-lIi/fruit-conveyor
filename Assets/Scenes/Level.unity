@@ -314,18 +314,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1155636717}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   <GeneratedNewTask>k__BackingField:
     m_PersistentCalls:
       m_Calls:
@@ -832,6 +820,7 @@ MonoBehaviour:
   _ConveyorBeltTransform: {fileID: 1498929622}
   _ConveyorBeltEndPoint: {fileID: 296062952}
   _GrabbingTaskGenerator: {fileID: 1691087727}
+  _CompleteParfticles: {fileID: 1155636717}
 --- !u!4 &1469321600
 Transform:
   m_ObjectHideFlags: 0
@@ -1176,6 +1165,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7279560374882341633, guid: 4cec4bd74fd3b1a4ba84e0463ba94b2d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279560374882341633, guid: 4cec4bd74fd3b1a4ba84e0463ba94b2d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.181
+      objectReference: {fileID: 0}
     - target: {fileID: 8465863908495551974, guid: 4cec4bd74fd3b1a4ba84e0463ba94b2d,
         type: 3}
       propertyPath: m_Pivot.x
