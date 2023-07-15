@@ -18,8 +18,8 @@ public class LevelUIWindow : UIWindow
         task.CompletedSted += OnCompletedStep;
         _currentTask = task;
 
-        _Background.DOFade(0.5f, 1).SetEase(Ease.OutCirc);
-        _Text.transform.DOScale(Vector2.one, 1).SetEase(Ease.OutBack);
+        _Background.DOFade(0.5f, 0.75f).SetEase(Ease.OutCirc);
+        _Text.transform.DOScale(Vector2.one, 0.75f).SetEase(Ease.OutBack);
     }
 
     private void UpdateText(int count, string id)

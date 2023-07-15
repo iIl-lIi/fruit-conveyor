@@ -24,12 +24,11 @@ namespace Code.ScenesLoader.Implementations
         {
             _window = UIController.LoadWindow<LevelUIWindow>();
             _window.ShowImmediate();
-            var task = _GrabbingTaskGenerator.GenerateNewGrabbingTask();
-            _window.SetGrabbingTaskInfo(task);
         }
         public override async UniTask Enter()
         {
-
+            var task = _GrabbingTaskGenerator.GenerateNewGrabbingTask();
+            _window.SetGrabbingTaskInfo(task);
         }
         public override async UniTask Exit()
         {
